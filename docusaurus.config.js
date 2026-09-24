@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '迦勒底',
-  tagline: '可以是任何内容',
+  tagline: '迦勒底之家',
   favicon: 'img/guimizhizhu.png',
 
   // 全局客户端模块：双击表格单元格自动复制内容
@@ -23,14 +23,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://holab.cc',
+  // 部署到 Cloudflare Pages 后，改成你的正式域名（含自定义域名），
+  // 用于生成 canonical / sitemap / RSS 里的绝对链接。
+  url: 'https://jialedihome.cn',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'LH-TH', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  projectName: 'jialedihome', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -56,7 +58,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/LH-TH/blog/edit/main/',
+            'https://github.com/LH-TH/jialedihome/edit/main/',
         },
         blog: {
           routeBasePath: '/',
@@ -70,7 +72,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/LH-TH/blog/edit/main/',
+            'https://github.com/LH-TH/jialedihome/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
