@@ -52,29 +52,6 @@ table {
   width: 100%;
 }
 
-/* 「编辑此页」固定到右上角 */
-.theme-blog-footer-edit-meta-row .theme-edit-this-page,
-.theme-doc-footer .theme-edit-this-page {
-  position: fixed;
-  bottom: 30px;
-  right: 20px;
-  z-index: 100;
-  background: var(--ifm-background-surface-color);
-  padding: 4px 12px;
-  border-radius: 6px;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  font-size: 0.85rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* 悬停效果 */
-.theme-blog-footer-edit-meta-row .theme-edit-this-page:hover,
-.theme-doc-footer .theme-edit-this-page:hover {
-  text-decoration: none;
-  background: var(--ifm-color-primary-lightest);
-  border-color: var(--ifm-color-primary);
-}
-
 /* 代码块自动换行 */
 pre {
   white-space: pre-wrap;
