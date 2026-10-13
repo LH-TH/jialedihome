@@ -109,7 +109,7 @@ const config = {
             items: [
               // {to: '/docs/category/eyasha', label: '鹅鸭杀' },
               {to: '/docs/鹅鸭杀/全角色技能', label: '鹅鸭杀' },
-              {to: '/docs/诡秘之主/副本', label: '迦勒底' },
+              {to: '/docs/诡秘之主/战力提升建议', label: '迦勒底' },
             ],
           },
           // {
