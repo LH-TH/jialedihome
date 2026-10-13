@@ -102,22 +102,18 @@ const config = {
           src: 'img/guimizhizhu.png',
         },
         items: [
+          {
+            type: 'dropdown',
+            label: '攻略',
+            position: 'right',
+            items: [
+              // {to: '/docs/category/eyasha', label: '鹅鸭杀' },
+              {to: '/docs/鹅鸭杀/全角色技能', label: '鹅鸭杀' },
+              {to: '/docs/诡秘之主/副本', label: '迦勒底' },
+            ],
+          },
           // {
-          //   type: 'dropdown',
-          //   label: '资料',
-          //   position: 'right',
-          //   items: [
-          //     {to: '/docs/category/ai', label: 'AI'},
-          //     {to: '/docs/category/docusaurus', label: 'Docusaurus'},
-          //     {to: '/docs/category/git', label: 'Git'},
-          //     { to: '/docs/category/network', label: '网络' },
-          //     {to: '/docs/category/webcollection', label: '网站收集'},
-          //   ],
-          // },
-          // // 右侧直接展示的链接
-          // {to: '/pages/timelog', label: '时间戳', position: 'right'},
-          // {
-          //   href: 'https://github.com/LH-TH/blog',
+          //   href: 'https://github.com/LH-TH/jialedihome',
           //   label: 'GitHub',
           //   position: 'right',
           // },
