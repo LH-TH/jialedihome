@@ -14,8 +14,13 @@ const config = {
   tagline: '迦勒底之家',
   favicon: 'img/guimizhizhu.png',
 
-  // 全局客户端模块：双击表格单元格自动复制内容
-  clientModules: [require.resolve('./src/clientModules/copyOnDoubleClick.ts')],
+  // 全局客户端模块
+  clientModules: [
+    // 双击表格单元格自动复制内容
+    require.resolve('./src/clientModules/copyOnDoubleClick.ts'),
+    // 表格里含指定关键字的格子自动打标记（给容器加 data-warn="字" 才生效）
+    require.resolve('./src/clientModules/warnTableCell.ts'),
+  ],
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -109,7 +114,7 @@ const config = {
             items: [
               // {to: '/docs/category/eyasha', label: '鹅鸭杀' },
               {to: '/docs/鹅鸭杀/全角色技能', label: '鹅鸭杀' },
-              {to: '/docs/诡秘之主/战力提升建议', label: '迦勒底' },
+              {to: '/docs/诡秘之主/非凡物质合成概率', label: '迦勒底' },
             ],
           },
           // {
